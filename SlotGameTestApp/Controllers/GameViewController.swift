@@ -136,11 +136,11 @@ class GameViewController: UIViewController {
             if winItem == item {
                 winStreak += 1
             }  else {
-                if winStreak >= 3 {
-                    winDict[winItem] = winStreak
-                }
                 winItem = item
                 winStreak = 1
+            }
+            if winStreak >= 3 {
+                winDict[winItem] = winStreak
             }
         }
         if !winDict.isEmpty {

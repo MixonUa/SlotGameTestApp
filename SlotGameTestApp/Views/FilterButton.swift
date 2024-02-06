@@ -26,7 +26,7 @@ class FilterButton: UIButton {
         fatalError("init(coder:) has not been implemented")
     }
     
-    public func configure() {
+    private func configure() {
         addSubview(buttonLineView)
         buttonLineView.translatesAutoresizingMaskIntoConstraints = false
         translatesAutoresizingMaskIntoConstraints = false

@@ -128,7 +128,7 @@ class MainViewController: UIViewController {
         }
     }
 
-    @IBAction func updateScoreLabel(_ unwindSegue: UIStoryboardSegue) {
+    @IBAction func backToMainMenu(_ unwindSegue: UIStoryboardSegue) {
         guard let gameVC = unwindSegue.source as? GameViewController else { return }
         setPortraitDeviceOrientation()
         self.scoreAmount = gameVC.gameScoreAmount

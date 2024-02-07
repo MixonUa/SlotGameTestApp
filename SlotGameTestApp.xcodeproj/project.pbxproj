@@ -22,6 +22,7 @@
 		938B671F285902CA005AC069 /* SlotItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938B671E285902CA005AC069 /* SlotItemView.swift */; };
 		939043C628574F7600D5D8CF /* GradientLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939043C528574F7600D5D8CF /* GradientLabel.swift */; };
 		93B60A7F2854FF4100FBDFF1 /* FilterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B60A7E2854FF4100FBDFF1 /* FilterButton.swift */; };
+		93BD46302B729D0B00FA96DD /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BD462F2B729D0B00FA96DD /* LaunchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		938B671E285902CA005AC069 /* SlotItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotItemView.swift; sourceTree = "<group>"; };
 		939043C528574F7600D5D8CF /* GradientLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientLabel.swift; sourceTree = "<group>"; };
 		93B60A7E2854FF4100FBDFF1 /* FilterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterButton.swift; sourceTree = "<group>"; };
+		93BD462F2B729D0B00FA96DD /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				936B7DFA2854A6740029CF8A /* AppDelegate.swift */,
 				936B7DFC2854A6740029CF8A /* SceneDelegate.swift */,
 				936B7E032854A6750029CF8A /* Assets.xcassets */,
+				936B7E002854A6740029CF8A /* Main.storyboard */,
 				936B7E052854A6750029CF8A /* LaunchScreen.storyboard */,
 				936B7E082854A6750029CF8A /* Info.plist */,
 			);
@@ -108,9 +111,9 @@
 		936B7E102854A6980029CF8A /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				936B7E002854A6740029CF8A /* Main.storyboard */,
 				936B7E152854A7320029CF8A /* MainViewController.swift */,
 				936B7E182854A73D0029CF8A /* GameViewController.swift */,
+				93BD462F2B729D0B00FA96DD /* LaunchViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				936B7E192854A73D0029CF8A /* GameViewController.swift in Sources */,
+				93BD46302B729D0B00FA96DD /* LaunchViewController.swift in Sources */,
 				936B7E162854A7320029CF8A /* MainViewController.swift in Sources */,
 				93B60A7F2854FF4100FBDFF1 /* FilterButton.swift in Sources */,
 				938B671728586F0D005AC069 /* SlotItemCost.swift in Sources */,
